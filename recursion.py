@@ -1,18 +1,30 @@
 
+import inspect
+
+# this is a counter for testing purpose
+
+
+def counter():
+    return
+
 # Solve the following prompts using recursion.
 
 # 1. Calculate the factorial of a number. The factorial of a non-negative integer n,
 # denoted by n!, is the product of all positive integers less than or equal to n.
 # Example: 5! = 5 x 4 x 3 x 2 x 1 = 120
 # factorial(5) => 120
-def factorial(n):
-    pass
 
+
+def factorial(n):
+    counter()  # DO NOT DELETE - used for testing.
+    pass
 # 2. Compute the sum of an array of integers.
 # sum([1,2,3,4,5,6]) => 21
 
 
 def sum_(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 3. Sum all numbers in an array containing nested arrays.
@@ -20,12 +32,16 @@ def sum_(array):
 
 
 def arraySum(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 4. Check if a number is even.
 
 
 def isEven(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 5. Sum all integers below a given integer.
@@ -34,6 +50,8 @@ def isEven(n):
 
 
 def sumBelow(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 6. Get the integers within a range (x, y).
@@ -41,6 +59,8 @@ def sumBelow(n):
 
 
 def range_(x, y):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 7. Compute the exponent of a number.
@@ -51,6 +71,8 @@ def range_(x, y):
 
 
 def exponent(base, exp):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 8. Determine if a number is a power of two.
@@ -60,18 +82,24 @@ def exponent(base, exp):
 
 
 def powerOfTwo(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 9. Write a function that reverses a string.
 
 
 def reverse(string):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 10. Write a function that determines if a string is a palindrome.
 
 
 def palindrome(string):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 11. Write a function that returns the remainder of x divided by y without using the
@@ -82,6 +110,8 @@ def palindrome(string):
 
 
 def modulo(x, y):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 12. Write a function that multiplies two numbers without using the * operator or
@@ -89,6 +119,8 @@ def modulo(x, y):
 
 
 def multiply(x, y):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 13. Write a function that divides two numbers without using the / operator or
@@ -96,6 +128,8 @@ def multiply(x, y):
 
 
 def divide(x, y):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 14. Find the greatest common divisor (gcd) of two positive numbers. The GCD of two
@@ -106,6 +140,8 @@ def divide(x, y):
 
 
 def gcd(x, y):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 15. Write a function that compares each character of two strings and returns true if
@@ -115,6 +151,8 @@ def gcd(x, y):
 
 
 def compareStr(str1, str2):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 16. Write a function that accepts a string and creates an array where each letter
@@ -122,12 +160,16 @@ def compareStr(str1, str2):
 
 
 def createArray(str):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 17. Reverse the order of an array
 
 
 def reverseArr(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 18. Create a new array with a given value and length.
@@ -136,6 +178,8 @@ def reverseArr(array):
 
 
 def buildList(value, length):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 19. Implement FizzBuzz. Given integer n, return an array of the string representations of 1 to n.
@@ -146,6 +190,8 @@ def buildList(value, length):
 
 
 def fizzBuzz(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 20. Count the occurrence of a value in a list.
@@ -154,6 +200,8 @@ def fizzBuzz(n):
 
 
 def countOccurrence(array, value):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 21. Write a recursive version of map.
@@ -161,6 +209,8 @@ def countOccurrence(array, value):
 
 
 def rMap(array, callback):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 22. Write a function that counts the number of times a key occurs in an object.
@@ -170,6 +220,8 @@ def rMap(array, callback):
 
 
 def countKeysInObj(obj, key):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 23. Write a function that counts the number of times a value occurs in an object.
@@ -179,6 +231,8 @@ def countKeysInObj(obj, key):
 
 
 def countValuesInObj(obj, value):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 24. Find all keys in an object (and nested objects) by a provided name and rename
@@ -186,6 +240,8 @@ def countValuesInObj(obj, value):
 
 
 def replaceKeysInObj(obj, oldKey, newKey):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 25. Get the first n Fibonacci numbers. In the Fibonacci sequence, each subsequent
@@ -196,6 +252,8 @@ def replaceKeysInObj(obj, oldKey, newKey):
 
 
 def fibonacci(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 26. Return the Fibonacci number located at index n of the Fibonacci sequence.
@@ -206,6 +264,8 @@ def fibonacci(n):
 
 
 def nthFibo(n):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 27. Given an array of words, return a new array containing each word capitalized.
@@ -214,6 +274,8 @@ def nthFibo(n):
 
 
 def capitalizeWords(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 28. Given an array of strings, capitalize the first letter of each index.
@@ -221,6 +283,8 @@ def capitalizeWords(array):
 
 
 def capitalizeFirst(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 29. Return the sum of all even numbers in an object containing nested objects.
@@ -235,6 +299,8 @@ def capitalizeFirst(array):
 
 
 def nestedEvenSum(obj):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 30. Flatten an array containing nested arrays.
@@ -242,6 +308,8 @@ def nestedEvenSum(obj):
 
 
 def flatten(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 31. Given a string, return an object containing tallies of each letter.
@@ -249,6 +317,8 @@ def flatten(array):
 
 
 def letterTally(str, obj):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 32. Eliminate consecutive duplicates in a list. If the list contains repeated
@@ -259,6 +329,8 @@ def letterTally(str, obj):
 
 
 def compress(list):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 33. Augment every element in a list with a new value where each element is an array
@@ -267,6 +339,8 @@ def compress(list):
 
 
 def augmentElements(array, aug):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 34. Reduce a series of zeroes to a single 0.
@@ -275,6 +349,8 @@ def augmentElements(array, aug):
 
 
 def minimizeZeroes(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 35. Alternate the numbers in an array between positive and negative regardless of
@@ -284,6 +360,8 @@ def minimizeZeroes(array):
 
 
 def alternateSign(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 36. Given a string, return a string with digits converted to their word equivalent.
@@ -292,6 +370,8 @@ def alternateSign(array):
 
 
 def numToText(str):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 
@@ -299,6 +379,8 @@ def numToText(str):
 
 # 37. Return the number of times a tag occurs in the DOM.
 def tagCount(tag, node):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 38. Write a function for binary search.
@@ -308,6 +390,8 @@ def tagCount(tag, node):
 
 
 def binarySearch(array, target, min, max):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 39. Write a merge sort function.
@@ -316,6 +400,8 @@ def binarySearch(array, target, min, max):
 
 
 def mergeSort(array):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
 
 # 40. Deeply clone objects and arrays.
@@ -326,4 +412,6 @@ def mergeSort(array):
 
 
 def clone(input):
+    counter()  # DO NOT DELETE - used for testing.
+
     pass
